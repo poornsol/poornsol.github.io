@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>float 요소</title>
+	<style>
+		*{ /* 여백초기화 */
+			padding: 0px;
+			margin: 0px;
+		}
+		li{
+			list-style-type: none;;
+		}
+		#images{
+			float: left;
+			
+		}
+		div,h3,p,ul,li,img{
+			border: 0px solid red;
+		}
+		#menu{
+			float: right;
+			padding-right: 30px;
+			font-weight: bold;
+			line-height: 50px;
+			font-size: 20px;
+		}
+		#menu li{
+			padding: 10px;
+			border-bottom: 2px dashed #999999;
+		}
+		#desc{
+			float: left;
+			width: 400px;
+			margin-left: 30px;
+			border: 0px solid #b18a8a;
+		}
+		A{
+			text-decoration: none;
+			color: black;
+		}
+		body{
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+<div id="images">
+<img src="./images/foxtail.png">
+</div>
+<div id="desc">
+<h3>강아지풀</h3>
+<p>길가나 들에서 자라는 풀로써 꽃은 9월에 피고 연한 녹색 또는 자주색입니다</p>
+</div>
+<ul id="menu">
+	<li><A HREF="">강아지풀</A></li>
+	<li><a HREF="">패랭이꽃</a></li>
+	<li><A HREF="">할미꽃</A></li>
+	<li><A HREF="">코스모스</A></li>
+</ul>
+</body>
+</html>
